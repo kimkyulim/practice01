@@ -2,56 +2,39 @@ package practice01;
 
 public class Prob2 {
 	public static void main(String[] args) {
+		/*
+		 * for(int a=1; a<10; a++) { for(int j=0; j<10;j++) { System.out.print(a + j
+		 * +" ");
+		 * 
+		 * } System.out.println(); }
+		 */
+
+		/*for (int i = 1; i < 6; i++) {
+			for (int j = 0; j < i; j++){
+		System.out.print("*");
+			}
+			System.out.println();
+	}*/
 		
-		for(int a=1; a<=10; a++)
-		{
-			System.out.print(a);
-		}		
+	/*for(int i=0; i<5; i++) {
+		for(int j=5; j>i; j--) {  // 횟수 
+			System.out.print("*");
+		}
 		System.out.println();
-			for(int b=2; b<=11; b++) {
-				System.out.print(b);
-				
-			}
-			System.out.println();
-			for(int c =3; c<=12; c++) {
-				System.out.print(c);
-				
-			}
-			System.out.println();
-			for(int c =4; c<=13; c++) {
-				System.out.print(c);
-				
-			}
-			System.out.println();
-			for(int c =5; c<=14; c++) {
-				System.out.print(c);
-				
-			}
-			System.out.println();
-			for(int c =6; c<=15; c++) {
-				System.out.print(c);
-				
-			}
-			
-			
-			System.out.println();
-			for(int c =7; c<=16; c++) {
-				System.out.print(c);
-				
-			}
-			System.out.println();
-			for(int c =8; c<=17; c++) {
-				System.out.print(c);
-				
-			}
-			System.out.println();
-			for(int c =9; c<=18; c++) {
-				System.out.print(c);
-				
-			}
-
-
-
+	}*/
 		
-}
+	
+	for(int i = 1; i <= 5; i++) {
+		for(int j = 0; j <= 5 - i; j++){
+			System.out.print(" ");
+		}
+		
+		for (int j = 5; j > 5 - i; j--) {
+			System.out.print("*");
+		}
+		
+		System.out.println();
+	}
+		
+	}
 }

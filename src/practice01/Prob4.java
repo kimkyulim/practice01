@@ -10,7 +10,7 @@ public class Prob4 {
 		String text = scanner.nextLine();
 		
 		//프로그램 구현
-		for(int i=1; i<text.length(); i++) {
+		for(int i=0; i<text.length(); i++) {
 			for(int j=0; j<=i; j++) {
 			
 				//charAt (문장중에 인덱스 위치에 해당되는 문자 추출하기)
